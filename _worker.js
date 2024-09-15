@@ -14,8 +14,54 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93t.me%2FCMLiussss%E8%A7%A3%E9%94%81%E6%9B%B4%E5%A4%9A%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9
-https://sub.xf.free.hr/auto
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@www.zbb07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d01
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@cf.w07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d02
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@edg.w07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d03
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@cf.zb9.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d04
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@afei.zb9.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d05
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@epe.zb9.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d06
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@cf.v07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d07
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@1.zcr07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d08
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@317ip.zcr07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#d09
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@zbpb.r08.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd01
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@gj0.v07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd02
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@cf.n06.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd03
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@3.zcr07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd04
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@bk.zcr07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd05
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@bo.zcr07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd06
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@bpb.zcr07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd07
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@b.zcr07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd08
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@CCSS.zcr07.us.kg:2053?encryption=none&security=tls&sni=BP.zcR07.FINDHERE.Org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zCR07.finDHeRe.oRG&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#dd09
+trojan://trojan@[2a06:98c1:3102::437e:7c9]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na01
+trojan://trojan@[2606:4700:311c::277c:f16]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na02
+trojan://trojan@[2606:4700:e7:a2:7523:aabf:62bb:4d63]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na03
+trojan://trojan@[2606:4700:e7:6588:8cc:8b70:dafa:4bec]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na04
+trojan://trojan@[2606:4700:f4::62a7:4286]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na05
+trojan://trojan@[2606:4700:53::977:4199]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na06
+trojan://trojan@[2606:4700:106::4151:4efd]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na07
+trojan://trojan@[2606:4700:e7:6588:804:5f8b:ec8f:a5b9]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na08
+trojan://trojan@[2606:4700:e7:0:f943:44e3:8af8:f528]:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#na09
+vless://6bf3079b-b0c4-4206-9578-e0b6813b102b@198.62.62.205:443?encryption=none&security=tls&sni=edg.zbb07.us.kg&alpn=h3&fp=random&type=ws&host=edg.zbb07.us.kg&path=%2F%3Fed%3D2560#nb01
+vless://b4c6b261-922d-4732-b634-1cfdba80ec50@198.62.62.217:443?encryption=none&security=tls&sni=edg.w07.us.kg&alpn=h3&fp=random&type=ws&host=edg.w07.us.kg&path=%2F%3Fproxyip%3Dproxyip.us.fxxk.dedyn.io#nb02
+trojan://trojan@198.62.62.205:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#nb03
+trojan://trojan@198.62.62.21:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#nb04
+trojan://trojan@198.62.62.233:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#nb05
+vless://b4c6b261-922d-4732-b634-1cfdba80ec50@198.62.62.198:443?encryption=none&security=tls&sni=edg.w07.us.kg&alpn=h3&fp=random&type=ws&host=edg.w07.us.kg&path=%2F%3Fproxyip%3Dproxyip.us.fxxk.dedyn.io#nb06
+trojan://trojan@198.62.62.215:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#nb07
+vless://b4c6b261-922d-4732-b634-1cfdba80ec50@198.62.62.235:443?encryption=none&security=tls&sni=edg.w07.us.kg&alpn=h3&fp=random&type=ws&host=edg.w07.us.kg&path=%2F%3Fproxyip%3Dproxyip.us.fxxk.dedyn.io#nb08
+trojan://trojan@104.17.241.239:443?security=tls&sni=ygt.n06.us.kg&fp=randomized&type=ws&host=ygt.n06.us.kg&path=%2Fpyip%3Dts.hpc.tw#nb09
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@www.sgp3.app:2053?encryption=none&security=tls&sni=bP.ZCr07.FINdHERe.org&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=BP.zcr07.FInDHEre.OrG&path=%2FxmJoDfLd2Mu7CC59%2FdHMuaHBjLnR3%3Fed%3D2560#w01
+vless://37691131-db68-49bc-b1bb-840277c54390@www.t66k.com:2087?encryption=none&security=tls&sni=xb.zcR07.rr.NU&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=Xb.zCR07.Rr.nU&path=%2FkTqJyIvVGNbqLjBi%2FdHMuaHBjLnR3%3Fed%3D2560#w02
+vless://b2ca329a-f595-4b17-92ec-c59604e64f9c@www.6642888.com:2053?encryption=none&security=tls&sni=zyh.z07.us.kg&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=zyh.z07.us.kg&path=%2Fi8PcVNuzXhd1sENh%2FdHMuaHBjLnR3%3Fed%3D2560#w03
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@yy99xx.com:443?encryption=none&security=tls&sni=BP.ZCr07.FINdheRE.orG&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=Bp.zCr07.findhEre.org&path=%2FK8yGi6Dhx0huqLkM%2FdHMuaHBjLnR3%3Fed%3D2560#w04
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@www.55xxhh.com:443?encryption=none&security=tls&sni=BP.zcr07.FINDHeRe.oRG&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.ZCr07.FInDHERE.ORG&path=%2Fwvrp2ry4dIqogmU2%2FdHMuaHBjLnR3%3Fed%3D2560#w05
+vless://2b152099-977d-4b23-9e00-a7f9108c65ea@www.t66k.com:2096?encryption=none&security=tls&sni=bp.ZCr07.FiNDhErE.ORg&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=bp.zcR07.fINdHeRe.oRG&path=%2FSqFgDhLBHckUW9I1%2FdHMuaHBjLnR3%3Fed%3D2560#w06
+vless://034b0d4e-8903-497c-87e1-d4c5b924994b@123rbrb.com:8443?encryption=none&security=tls&sni=KJ8.Zbb07.US.kg&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=kJ8.zBB07.us.kG&path=%2FqqEbJHADhgVMVVVj%2FdHMuaHBjLnR3%3Fed%3D2560#w07
+vless://b2ca329a-f595-4b17-92ec-c59604e64f9c@www.123rbrb.com:443?encryption=none&security=tls&sni=ZyH.Z07.Us.Kg&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=zYh.z07.uS.kg&path=%2FwXzEwTHQf29TzsAi%2FdHMuaHBjLnR3%3Fed%3D2560#w08
+vless://14e3a0f4-96f0-49b8-b4ea-7c26ef211156@dlpsgame.com:2083?encryption=none&security=tls&sni=bpb.zCR07.cOm.mP&alpn=h2%2Chttp%2F1.1&fp=randomized&type=ws&host=Bpb.zCr07.COm.MP&path=%2F9mwESnRKxm3iN8bt%2FdHMuaHBjLnR3%3Fed%3D2560#w09
+
+
+
 `
 
 let urls = [];
